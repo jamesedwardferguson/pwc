@@ -1,5 +1,51 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
 body {
-  background: gainsboro;
+  background-color: ghostwhite;
   height: 100vh;
-  border: 2px solid black;
+  margin-top: 55px;
+}
+
+#wrapper {
+  display: flex;
+  border: 1px solid darkgrey;
+  min-height: 60vh;
+  flex-direction: column;
+}
+
+.title {
+  height: 50px;
+  width: 95%;
+  margin: 10px auto;
+  padding-left: 10px;
+  background: linear-gradient(to bottom, lightgrey, white, darkgrey);
+  border-radius: 2px;
+}
+
+h2 {
+  margin: 1% auto;
+  font-family: sans-serif;
+}
+
+h3 {
+  font-family: sans-serif;
+}
+
+.textbox {
+  width: 200px;
+  height: 30px;
+}
+
+.buttons {
+  display: flex;
+}
+
+button {
+  width: 100px;
+  background-color: orange;
+  border-radius: 10px;
 }
