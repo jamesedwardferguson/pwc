@@ -1,41 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Code Test</title>
-  <link rel="stylesheet" href="css/style.css">
-  <script src="js/jquery.js"></script>
-  <script src="js/main.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Code Test</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
 </head>
+
 <body>
 
-<div id="wrapper">
+    <div id="wrapper">
 
-  <div class="title">
-    <h2>My application form</h2>
-  </div>
+        <div class="title">
+            <h2>My application form</h2>
+        </div>
 
-<div id="input">
+        <div id="input">
 
-  <form action="#" method="post">
+            <form action="#" method="post">
 
-    <h3>My name is</h3>
+                <h3>My name is</h3>
 
-    <input type="text" id="textbox" value="Please enter your full name">
+                <input type="text" id="textbox" value="Please enter your full name" onclick="this.value=' '">
 
-    <h3>I find CSS</h3>
+                <h3>I find CSS</h3>
 
-  <div class="buttons">
-    <button>Easy</button>
-    <button>Occasionally hard</button>
-    <button>Diabolical</button>
-  </div>
+                <div class="buttons">
+                    <button>Easy</button>
+                    <button>Occasionally hard</button>
+                    <button>Diabolical</button>
+                </div>
 
-    <h3>My favourite JavaScript library is</h3>
+                <h3>My favourite JavaScript library is</h3>
 
-      <select name="libraries" id="dropdown">
+                <select name="libraries" id="dropdown">
         <option value="Select">Please select...</option>
         <option value="jQuery">jQuery</option>
         <option value="jQueryui">jQuery UI</option>
@@ -48,18 +50,23 @@
         <option value="Three.js">Three.js</option>
       </select>
 
-        <input type="checkbox" id="tick" value="tick">
-        <div class="yesPlease">
-        <h4>I really want to work at PwC</h4>
+                <div class="yesPlease">
+                    <label>
+          <input type="checkbox" id="tick" value="tick">
+          <span></span>
+          <h4>I really want to work at PwC</h4>
+          </label>
+                </div>
+
+
+                <input type="submit" id="submitbutton" value="Submit">
+
+            </form>
         </div>
 
-        <input type="submit" id="submitbutton" value="Submit">
-
-      </form>
-</div>
-
-</div>
+    </div>
 
 
 </body>
+
 </html>
